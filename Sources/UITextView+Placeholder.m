@@ -200,7 +200,7 @@
         textContainerInset = UIEdgeInsetsMake(8, 0, 8, 0);
     }
 
-    CGFloat x = lineFragmentPadding + textContainerInset.left;
+    CGFloat x = 0;
     CGFloat y = textContainerInset.top;
     CGFloat width = CGRectGetWidth(self.bounds) - x - lineFragmentPadding - textContainerInset.right;
     CGFloat height = [self.placeholderLabel sizeThatFits:CGSizeMake(width, 0)].height;
